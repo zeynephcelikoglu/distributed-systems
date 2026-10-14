@@ -10,7 +10,6 @@ Algoritmanın özeti
 4. Bir node, parentı dışındaki tüm komşularından yanıt aldığında alt ağacının tamamlandığını anlar ve parentına <ack> gönderir (convergecast).
 5. Aynı durumu root da sağladığında root, algoritmanın global olarak sonlandığını anlar.
 """
-import argparse
 import random
 import sys
 
